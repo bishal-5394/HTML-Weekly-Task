@@ -1,0 +1,25 @@
+
+git pull origin main
+git add .
+git commit -m "Updated"
+git push -u origin main
+
+
+
+For HTML Git Task:
+Create repository:
+ 
+echo "# HTML-Weekly-Task" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bishal-5394/HTML-Weekly-Task.git
+git push -u origin main
+
+
+Push new repository:
+
+git remote add origin https://github.com/bishal-5394/HTML-Weekly-Task.git
+git branch -M main
+git push -u origin main
